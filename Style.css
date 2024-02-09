@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    background-color: lightgray;
+    max-width: 625px;
+    min-height: auto;
+    border: 5px solid black;
+}
+.content {
+    max-width: 900px;
+    margin: 3px ;
+}
+.top_section {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.top_section h1 {
+    font-size: 40px;
+    font-weight: bolder;
+    color:rgb(12, 53, 93);
+    margin-left: 10px;
+}
+#student {
+    font-size: 20px;
+    color: rgb(34, 82, 82);
+}
+.image_container {
+    border-radius: 50%;
+    overflow: hidden;
+}
+.image_container,img {
+    width: 150px;
+    height: 200px;
+}
+.about_section {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.about_section h3 {
+    font-size: 25px;
+    font-weight: 900;
+    color: rgb(2, 59, 88);
+    background-color: rgb(127, 179, 187);
+    margin-right: cover;
+    text-decoration: underline;
+}
+.about_section ul {
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+.about_section p {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 22px;
+    text-align: justify;
+    margin-left: 10px;
+}
+.about_section h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+footer {
+    font-size: 22px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
